@@ -9,6 +9,13 @@
   </head>
 
   <body>
-    <%= yield %>
+
+      <div class="container-fliud">
+          <%= render "common/navbar"%>
+          <%= yield%>
+     </div>
+
+     <%= render "commom/footer" %>
+     
   </body>
 </html>
